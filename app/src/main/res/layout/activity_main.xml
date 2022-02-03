@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D8D8"
+    android:backgroundTint="#F1F1F1"
+    android:foregroundTint="#ECECEC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:background="#12BDCC"
+        app:tabIndicatorColor="#7D839F"
+        app:tabSelectedTextColor="#FFFFFF"
+        app:tabTextColor="#000000">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:backgroundTint="#ECECEC"
+            android:foregroundTint="#CDCBCB"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:text="@string/Inicio" />
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:backgroundTint="#ECECEC"
+            android:foregroundTint="#CDCBCB"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:text="@string/Buscar" />
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabBiblioteca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:backgroundTint="#ECECEC"
+            android:foregroundTint="#CDCBCB"
+            android:icon="@drawable/ic_baseline_library_music_24"
+            android:text="@string/Biblioteca" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+</LinearLayout>

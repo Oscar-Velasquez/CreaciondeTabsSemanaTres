@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#DDD2D2"
+    android:scrollbarSize="200dp"
+    tools:context=".Controlador.Inicios">
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/primer_fragment" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="222dp"
+        android:layout_height="142dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/fragInicios"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:typeface="sans" />
+</FrameLayout>
